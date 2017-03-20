@@ -1,14 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Location List</title>
 
-<link rel="stylesheet" type="text/css"
-	href="${pageContext.request.contextPath}/css/common.css">
 
 <!-- Below are the Style Sheets required for Data Tables. These can be customized as required -->
 <link rel="stylesheet" type="text/css"
@@ -24,9 +23,6 @@
 <!-- Below are the jQuery scripts required for Data Tables. -->
 <script type="text/javascript"
 	src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-
-<script type="text/javascript"
-	src="${pageContext.request.contextPath}/js/common.js"></script>
 	
 <!-- Initialization code of data table at the time of page load. -->
 <script>
